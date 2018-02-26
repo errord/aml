@@ -12,7 +12,7 @@ sys.path.insert(0, '../')
 
 logging.getLogger().setLevel(logging.DEBUG)
 
-from leobase.aml import AML, AMLMap as AMap, AMLAction as Action
+from aml import AML, AMLMap as AMap, AMLAction as Action
 
 
 def setUp():
